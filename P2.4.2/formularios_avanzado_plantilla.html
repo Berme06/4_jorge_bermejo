@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <style>
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type=radio]+label,
+        input[type=checkbox]+label {
+            display: inline;
+        }
+
+        input[type=submit],
+        button[type=submit],
+        button[type=reset] {
+            display: inline;
+            margin-right: 10px;
+            margin-top: 15px;
+            color: white;
+            border-radius: 10px;
+        }
+
+        input[type=submit],
+        button[type=submit] {
+            background-color: rgb(79, 60, 96);
+        }
+
+        button[type=reset] {
+            background-color: rgb(196, 76, 20);
+        }
+
+        *:required {
+            border-color: gold;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="mailto:jorge.bermejo7@educa.madrid.org" method="post">
+        <fieldset>
+            <legend>Personaje</legend>
+            <label for="name">Superhéroe favorito:</label>
+            <input list="Superheroe" name="Superheroe">
+            <datalist id="Superheroe">
+                <option value="Linterna verde">
+                <option value="Spiderman">
+                <option value="Venom">
+                <option value="Deadpool">
+                <option value="Iron Man">
+                <option value="Doctor Strange">
+            </datalist>
+            <label for="color">Color</label>
+            <input type="color" name="color">
+        </fieldset>
+        <fieldset>
+            <legend>Datos de contacto</legend>
+            <label for="name">Nombre</label>
+            <br>
+            <input type="text" placeholder="Escriba su nombre" name="name">
+            <label for="name">Telefono:</label>
+            <input type="tel" placeholder="Escriba su telefono" name="Telefono">
+            <label for="fecha">Fecha</label>
+            <input type="date">
+            <label for="contraseña">Contraseña (8 caracteres minimo)</label>
+            <input type="password" id="pass" name="password" minlength="8" required>
+        </fieldset>
+        <fieldset>
+            <legend>Selecciona forma de contacto preferida:</legend>
+            <input type="radio"> Carta
+            <input type="radio"> Telefono
+            <input type="radio"> Email
+        </fieldset>
+        <fieldset>
+            <legend>Selecciona asignatura favorita</legend>
+            <label for="AplicacionesWeb">Aplicaciones Web</label>
+            <input id="AplicacionesWeb" type="checkbox">
+            <br>
+            <label for="SeguridadInformatica">Seguridad Informatica</label>
+            <input id="SeguridadInformatica" type="checkbox">
+        </fieldset>
+        <input class="form_button" type="submit" value="Enviar">
+        <input class="form_button" type="reset" value="Reset">
+    </form>
+    <fieldset>
+        <legend>Pon aqui tus hobbies o lo que te gusta hacer en tu dia a dia</legend>
+        <textarea name="message" rows="10" cols="50"></textarea>
+    </fieldset>
+    <fieldset>
+    <legend>Busca las palabras del formulario</legend>
+    <input type="search" placeholder="Buscar">
+    </fieldset>
+</body>
+
+</html>
