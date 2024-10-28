@@ -1,24 +1,29 @@
 <style>
-h2{
-    color: blueviolet;
-}
 h1{
-    color: rgb(73, 204, 160);
+   color: aqua; 
+}
+h2{
+  color: purple;
 }
 span{
-    font-weight: bolder;
+font-weight: bolder;
+
 }
+
 code{
-    color: blue;
+color: blue;
+font-weight: bolder;
 }
 #mayus_y_gris{
-    text-transform: uppercase;
-    color: grey;
+text-transform: uppercase;
+color: grey;
 }
-#verde{
-    color: green;
-}
+
 .rojo{
     color: red;
+    font-weight: bold;
 }
-    </style>
+#comentario{
+    color: green;
+}
+</style>
