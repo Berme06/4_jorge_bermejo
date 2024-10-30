@@ -5,5 +5,15 @@ caption {
 }
 
 td, th{
-
+    border-radius: 5%;
+    padding: 2%;
+}
+.hora{
+    background-color: blue;
+    color: white;
+}
+.dias{
+    background-color: aqua;
+    color: black;
+    
 }
