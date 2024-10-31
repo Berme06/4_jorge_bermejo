@@ -68,9 +68,9 @@
         </fieldset>
         <fieldset>
             <legend>Selecciona forma de contacto preferida:</legend>
-            <input type="radio"> Carta
-            <input type="radio"> Telefono
-            <input type="radio"> Email
+            <input type="radio" name="forma_contacto" value="carta"> Carta
+            <input type="radio" name="forma_contacto" value="telefono"> Telefono
+            <input type="radio" name="forma_contacto" value="email"> Email
         </fieldset>
         <fieldset>
             <legend>Selecciona asignatura favorita</legend>
@@ -89,7 +89,9 @@
     </fieldset>
     <fieldset>
     <legend>Busca las palabras del formulario</legend>
-    <input type="search" placeholder="Buscar">
+    <input type="search" placeholder="Buscar" name="Buscar">
+    <input class="form_button" type="submit" value="Buscar">
+
     </fieldset>
 </body>
 
