@@ -1,20 +1,42 @@
-<style>
-.flex-container{
+.container {
+    gap: 10px;
+    justify-content: end;
+    background-color: rgb(197, 79, 197);
+    padding: 7px;
+    display: flex;
+}
+
+.container2 {
+    background-color: rgb(4, 150, 235);
     display: flex;
     flex-direction: column-reverse;
-    flex-wrap: wrap;
-    background-color: aqua;
-    padding: 10px; 
-    border: 2px solid black;
-
-}
-.flex-container div{
-    background-color: gainsboro;
     width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-    border: 2px solid black;
+}
+
+.caja {
+    background-color: orange;
+    padding: 8px;
+    margin: 8px;
+}
+#nav{
+    background-color: beige;
+}
+#nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+#nav ul li{
+    background-color: rgb(252, 183, 94);
+    padding: 10px 15px;
+    border: 5px solid rgb(31, 29, 29);
+}
+#nav ul li:hover{
+    background-color: lightslategray;
+}
+#nav ul li{
+    color: white;
+    text-decoration: 16 px;
+    font-size: 16 px;
 }
 </style>
