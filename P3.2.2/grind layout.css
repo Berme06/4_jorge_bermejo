@@ -1,6 +1,5 @@
 
 .container{
-    background-color: yellow;
     display: grid;
     grid-template-rows: 20% 65% 15%;
     grid-template-columns: 25% 25% 25% 25%;
