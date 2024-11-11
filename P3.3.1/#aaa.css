@@ -1,0 +1,8 @@
+.header {
+    padding: 2em;
+    text-align: center;
+    background-size: cover;
+    background-image: url(hero-cit.jpg);
+    background-position: center;
+    color: white;
+}
