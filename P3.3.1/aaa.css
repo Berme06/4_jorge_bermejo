@@ -1,0 +1,47 @@
+header {
+    padding: 2em;
+    text-align: center;
+    background-size: cover;
+    background-image: url(images.jpeg);
+    background-position: center;
+    color: white;
+}
+img{
+  border-radius: 40%;
+  max-width: 140px;
+}
+
+body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h4 {
+            color: #7f1919;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h3 {
+            color: #610e1c;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        section {
+            margin-left: 8px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul>li::before {
+            content: "►";
+            padding: 0.5em;
+            color: #9d7f8d;
+        }
+        footer{
+            text-align: right;
+            padding-right: 15px;
+           background-color: #dce990;
+           min-height: 125px;
+           }
