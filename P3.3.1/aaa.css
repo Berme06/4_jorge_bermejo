@@ -1,17 +1,64 @@
 header {
-    padding: 2em;
+    padding: 2%;
     text-align: center;
     background-size: cover;
     background-image: url(images.jpeg);
     background-position: center;
     color: white;
-    height: 200px;
+    font-size: 20px;
+}
+
+header h1 {
+    text-shadow: 5px 5px 4px black;
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+header img {
+    border-radius: 100px;
 }
 
 img {
     border-radius: 40%;
     max-width: 140px;
 }
+
+nav {
+    background-color: beige;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav ul li {
+    background-color: rgb(252, 183, 94);
+    padding: 10px 15px;
+    border: 5px solid rgb(31, 29, 29);
+}
+
+nav ul li:hover {
+    background-color: lightslategray;
+}
+
+nav ul li {
+    color: white;
+    text-decoration: 16 px;;
+}
+
+section {
+    padding-left: 15px;
+}
+
+section:not(:last-child) {
+    border-bottom: 1px solid grey;
+}
+
 
 body:not(:last-child) {
     margin: 0;
@@ -25,7 +72,7 @@ header h1 {
 
 header p {
     color: black;
-    
+
 }
 
 h4 {
@@ -48,19 +95,19 @@ ul {
     display: grid;
 }
 
-ul>li::before {
+ul>li:before {
     content: "►";
     padding: 0.5em;
     color: #9d7f8d;
-    
+
 }
 
-.knowledge{
+.knowledge {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.languages{
+.languages {
     grid-column-start: 1;
     grid-column-end: 3;
 }
@@ -71,6 +118,7 @@ footer {
     background-color: #dce990;
     min-height: 125px;
 }
-#last-section{
+
+#last-section {
     border-bottom: none;
 }
