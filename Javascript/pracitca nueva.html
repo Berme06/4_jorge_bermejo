@@ -3,16 +3,23 @@
 
 <head>
     <meta charset="UTF-8">
-    <script src="ejemplo.js"></script>
-    <script> 
-        console.log('pagina cargada');
-    </script>
+    <style>
+    #micaja{
+        min-height: 50px;
+        min-width: 50px;
+        background-color: rosybrown;
+    }
+    </style>
 </head>
+
 <body>
     <h1>prueba</h1>
-    <button onclick='ImprimirMensaje("boton 1");'>prueba</button>
-    <button onclick='ImprimirMensaje("boton 2");'>boton 2</button>
-    <button onclick='console.log("boton 3");'>boton 3</button>
-</body>
+    <button id="boton1">boton 1</button> 
+    <button id="botonChangeFont">Cambiar la letra</button> 
 
+
+     <div id="micaja">
+        Esta es mi caja
+     </div>
+    <script src="ejemplo.js"></script>
 </html>
