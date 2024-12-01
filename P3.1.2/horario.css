@@ -1,0 +1,55 @@
+caption {
+    padding: 2%;
+    background-color: rgb(0, 255, 255);
+    border-radius: 50px;
+}
+
+td {
+    border: 5px outset;
+    text-align: center
+}
+
+th {
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(141, 181, 241);
+}
+.hora{
+    background-color: blue;
+    color: white;
+}
+.recreo{
+    background-color: yellow;
+    color: black;    
+}
+.zamorano{
+    background-color: cornflowerblue
+}
+#aula{
+    visibility: hidden;
+}
+td.redes:hover #aula{
+    visibility: visible; 
+    display: block;
+}
+.redes{
+    background-color: brown;
+}
+.empresa{
+    background-color: hotpink;
+}
+.ingles{
+    background-color: orange
+}
+.sistemas{
+    background-color: mediumpurple;
+}
+.aplicaciones{
+    background-color: lightslategray;
+}
+th:nth-child(1){
+    background-color: white;
+}
+td.recreo:hover{
+    background-color: red;
+}
