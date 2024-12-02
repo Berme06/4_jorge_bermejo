@@ -7,7 +7,7 @@ function ImprimirMensaje(mensaje){
     console.log("Hola,mundo");
 }
 function tipoDeVariable(mivariable){
-    let mensaje = ""Mi vaariable es de tipo" + typeof(miVariable)"
+    let mensaje = ""Mi variable es de tipo" + typeof(miVariable)"
     console.log(mensaje)
     console.log(NUM_ALUMNOS)
 }
