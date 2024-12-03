@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #resultado{
+                height: 150px;
+                width: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <label>Nota primera evaluaci&oacute;n</label>
+            <input type="number" max="10" id="nota_primera_ev">
+            <label>Nota segunda evaluaci&oacute;n</label>
+            <input type="number" max="10" id="nota_segunda_ev">
+            <label for="nombre">Nombre</label>
+            <input type="nombre" id="nombre" type="text" placeholder="fulanito...">
+        </form>
+        <!-- TODO: hacer que al pulsar el botón se calcule la nota final y se pinte el div con el texto y color adecuados -->
+        <button name="calcular" id="calcular" onclick="calcularNotaFinal()">Calcular nota</button>
+        <div id="resultado">
+        </div>
+
+        <script src="aprobadosupenso.js"></script>
+    </body>
+</html>
